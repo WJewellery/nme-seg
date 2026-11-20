@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 数据（含病人信息，禁止入库）
+data/
+images/
+labels/
+imagesTr/
+labelsTr/
+*.nii
+*.nii.gz
+*.npz
+*.pth
+*.xlsx
+*.dcm
+
+# 运行产物
+out*/
+preds*/
+predictions*/
+*_nnunet_input/
+*.log
+
+# 系统
+.DS_Store
+._*
+.vscode/
+.idea/

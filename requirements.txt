@@ -1,0 +1,10 @@
+torch>=2.0
+nnunetv2>=2.4
+numpy
+pandas
+nibabel
+SimpleITK
+scikit-image
+scikit-learn
+matplotlib
+openpyxl
